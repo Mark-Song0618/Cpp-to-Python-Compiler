@@ -1,7 +1,7 @@
-# build
+## build
 mkdir -p build; cd build
 cmake ..
 cmake --build .
 
-#test
+## test
 cpp2python.exe [your src path]
