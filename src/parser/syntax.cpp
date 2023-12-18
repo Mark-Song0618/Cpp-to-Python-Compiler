@@ -1,0 +1,36 @@
+#include "syntax.h"
+
+namespace SYNTAX {
+
+	std::map<TokenType, KeyWordType> _kwMap =
+	{
+		{CHAR,				KW_CHAR},
+		{SHORT,				KW_SHORT},
+		{INT,				KW_INT},
+		{LONG,				KW_LONG},
+		{FLOAT,				KW_FLOAT},
+		{DOUBLE,			KW_DOUBLE},
+		{ADD,				KW_ADD},
+		{MINUS,				KW_MINUS},
+		{MULTI,				KW_MULTI},
+		{DIV,				KW_DIV},
+		{IF,				KW_IF},
+		{ELSE,				KW_ELSE},
+		{WHILE,				KW_WHILE},
+		{FOR,				KW_FOR},
+		{PARENTHESES_LEFT,	KW_PARENTHESES_LEFT},
+		{PARENTHESES_RIGHT,	KW_PARENTHESES_RIGHT},
+		{BRACKET_LEFT,		KW_BRACKET_LEFT},
+		{BRACKET_RIGHT,		KW_BRACKET_RIGHT},
+		{BRACE_LEFT,		KW_BRACE_LEFT},
+		{BRACE_RIGHT,		KW_BRACE_RIGHT},
+		{SEMICOLON,			KW_SEMICOLON},
+		{COMMA,				KW_COMMA},
+		{CLASS,				KW_CLASS},
+		{STRUCT,			KW_STRUCT},
+		{EQUAL,				KW_EQUAL},
+		{RETURN,			KW_RETURN},
+		{CONST,				KW_CONST}	
+	};
+
+}

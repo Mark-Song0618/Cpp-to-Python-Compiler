@@ -1,0 +1,22 @@
+/* class or struct defination*/
+struct Apple {
+	int price;
+};
+
+/* global var */
+int other_cost = 0;
+
+/* global function */
+int add (int a, int b) {
+	return a + b;
+};
+
+int main (int argc, char** argv) {
+	Apple a;
+	int total_cost = 0;
+	for (int cnt = 0; cnt < 10; cnt = cnt +1) {
+		total_cost = add(a.price, total_cost);		
+	};
+	total_cost = add(total_cost, other_cost);
+	return 0;
+};
